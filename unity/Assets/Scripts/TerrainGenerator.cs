@@ -26,7 +26,7 @@ public class TerrainGenerator : MonoBehaviour
     {
         terrainData.heightmapResolution = width + 1;
         terrainData.size = new Vector3(width*scale, depth, height*scale);
-        terrainData.SetHeights(0,0, GenerateHeights());
+        //terrainData.SetHeights(0,0, GenerateHeights());
         return terrainData;
     }
 
